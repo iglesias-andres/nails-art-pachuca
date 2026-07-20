@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="NAILS & ART — estudio de manicure, pedicure, soft gel, rubber y pestañas en Pachuca, Hidalgo. Agenda tu cita por WhatsApp.">
+	<title>NAILS & ART · Pachuca, Hidalgo</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-[#F3EAD9] text-[#4A3B33]">
+
+	<header class="sticky top-0 z-40 bg-[#F3EAD9]/90 backdrop-blur border-b border-[#E0CFB4]">
+		<nav class="max-w-6xl mx-auto flex items-center justify-between px-5 py-3">
+			<a href="#inicio" class="flex items-center gap-3">
+				<img src="assets/logo.jpg" alt="Logo de NAILS & ART" class="w-11 h-11 rounded-full object-cover">
+				<span class="font-serif text-lg tracking-wide">NAILS &amp; ART</span>
+			</a>
+			<ul class="hidden md:flex items-center gap-8 text-sm tracking-wide">
+				<li><a href="#servicios" class="hover:text-[#9C6B63]">Servicios</a></li>
+				<li><a href="#galeria" class="hover:text-[#9C6B63]">Galería</a></li>
+				<li><a href="#ubicacion" class="hover:text-[#9C6B63]">Ubicación</a></li>
+				<li>
+					<a href="https://wa.me/527711277407?text=Hola%2C%20quiero%20agendar%20una%20cita%20en%20NAILS%20%26%20ART"
+					   target="_blank" rel="noopener"
+					   class="bg-[#9C6B63] text-white px-4 py-2 rounded-full hover:bg-[#84564f] transition-colors">
+						Agenda tu cita
+					</a>
+				</li>
+			</ul>
+			<button id="menu-toggle" class="md:hidden text-2xl" aria-label="Abrir menú" aria-expanded="false">☰</button>
+		</nav>
+		<ul id="mobile-menu" class="hidden md:hidden flex flex-col gap-1 px-5 pb-4 text-sm">
+			<li><a href="#servicios" class="block py-2">Servicios</a></li>
+			<li><a href="#galeria" class="block py-2">Galería</a></li>
+			<li><a href="#ubicacion" class="block py-2">Ubicación</a></li>
+			<li>
+				<a href="https://wa.me/527711277407?text=Hola%2C%20quiero%20agendar%20una%20cita%20en%20NAILS%20%26%20ART"
+				   target="_blank" rel="noopener"
+				   class="inline-block bg-[#9C6B63] text-white px-4 py-2 rounded-full mt-1">
+					Agenda tu cita
+				</a>
+			</li>
+		</ul>
+	</header>
+
+	<main>
+		<section id="inicio" class="max-w-6xl mx-auto px-5 py-16 md:py-24 grid md:grid-cols-2 gap-12 items-center">
+			<div>
+				<p class="uppercase tracking-[0.2em] text-xs text-[#9C6B63] mb-4">Beauty · Cosmetic &amp; Personal Care</p>
+				<h1 class="font-serif text-4xl sm:text-5xl leading-tight mb-5">Uñas con arte,<br>cuidado con detalle</h1>
+				<p class="text-[#6b5b50] mb-8 max-w-md">
+					Manicure, pedicure, soft gel, rubber, laminado de cejas y extensiones de pestañas
+					en un espacio pensado para vos. Pachuca, Hidalgo.
+				</p>
+				<div class="flex flex-wrap gap-4">
+					<a href="https://wa.me/527711277407?text=Hola%2C%20quiero%20agendar%20una%20cita%20en%20NAILS%20%26%20ART"
+					   target="_blank" rel="noopener"
+					   class="bg-[#9C6B63] text-white px-6 py-3 rounded-full font-medium hover:bg-[#84564f] transition-colors">
+						Reservar por WhatsApp
+					</a>
+					<a href="#galeria" class="border border-[#9C6B63] text-[#9C6B63] px-6 py-3 rounded-full font-medium hover:bg-[#9C6B63] hover:text-white transition-colors">
+						Ver trabajos
+					</a>
+				</div>
+			</div>
+			<div class="relative">
+				<img src="assets/hero.jpg" alt="Diseño de uñas con flores 3D y esmalte amarillo, tendencia del mes en NAILS & ART"
+					 class="w-full rounded-2xl shadow-xl object-cover aspect-[4/5]">
+			</div>
+		</section>
+
+		<section id="servicios" class="bg-[#EADFC8] border-y border-[#E0CFB4]">
+			<div class="max-w-6xl mx-auto px-5 py-16 md:py-20">
+				<h2 class="font-serif text-3xl text-center mb-2">Servicios</h2>
+				<p class="text-center text-[#6b5b50] mb-12">Todo lo que necesitás en un solo lugar</p>
+				<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+					<div class="bg-[#F3EAD9] rounded-xl p-6 border border-[#E0CFB4]">
+						<h3 class="font-serif text-xl mb-2">Manicure</h3>
+						<p class="text-sm text-[#6b5b50]">Cuidado clásico de manos con acabado impecable.</p>
+					</div>
+					<div class="bg-[#F3EAD9] rounded-xl p-6 border border-[#E0CFB4]">
+						<h3 class="font-serif text-xl mb-2">Pedicure</h3>
+						<p class="text-sm text-[#6b5b50]">Relajación y cuidado completo para tus pies.</p>
+					</div>
+					<div class="bg-[#F3EAD9] rounded-xl p-6 border border-[#E0CFB4]">
+						<h3 class="font-serif text-xl mb-2">Soft Gel</h3>
+						<p class="text-sm text-[#6b5b50]">Extensión ligera y resistente, look natural.</p>
+					</div>
+					<div class="bg-[#F3EAD9] rounded-xl p-6 border border-[#E0CFB4]">
+						<h3 class="font-serif text-xl mb-2">Rubber</h3>
+						<p class="text-sm text-[#6b5b50]">Cobertura flexible y duradera para uñas naturales.</p>
+					</div>
+					<div class="bg-[#F3EAD9] rounded-xl p-6 border border-[#E0CFB4]">
+						<h3 class="font-serif text-xl mb-2">Laminado de cejas</h3>
+						<p class="text-sm text-[#6b5b50]">Cejas prolijas y definidas por varias semanas.</p>
+					</div>
+					<div class="bg-[#F3EAD9] rounded-xl p-6 border border-[#E0CFB4]">
+						<h3 class="font-serif text-xl mb-2">Pestañas &amp; extensiones</h3>
+						<p class="text-sm text-[#6b5b50]">Laminado y extensión de pestañas a medida.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="galeria" class="max-w-6xl mx-auto px-5 py-16 md:py-20">
+			<h2 class="font-serif text-3xl text-center mb-2">Galería</h2>
+			<p class="text-center text-[#6b5b50] mb-12">Algunos de nuestros trabajos</p>
+			<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+				<img src="assets/gallery-1.webp" alt="Diseño de uñas rojo brillante estilo glitter" class="w-full aspect-square object-cover rounded-xl">
+				<img src="assets/gallery-2.webp" alt="Diseño de uñas nude con detalles plateados y estrellas" class="w-full aspect-square object-cover rounded-xl">
+				<img src="assets/gallery-3.jpg" alt="Antes y después de un servicio de manicure en NAILS & ART" class="w-full aspect-square object-cover rounded-xl sm:col-span-2 lg:col-span-1">
+			</div>
+			<p class="text-center mt-8">
+				<a href="https://www.instagram.com/nails.art_pachuca/" target="_blank" rel="noopener" class="text-[#9C6B63] font-medium hover:underline">
+					Ver más en Instagram →
+				</a>
+			</p>
+		</section>
+
+		<section id="ubicacion" class="bg-[#EADFC8] border-y border-[#E0CFB4]">
+			<div class="max-w-6xl mx-auto px-5 py-16 md:py-20 grid md:grid-cols-2 gap-10 items-center">
+				<div>
+					<h2 class="font-serif text-3xl mb-4">Ubicación</h2>
+					<p class="text-[#6b5b50] mb-1">Blvrd. Ramón G. Bonfil 702, Piracantos</p>
+					<p class="text-[#6b5b50] mb-6">42088 Pachuca de Soto, Hgo.</p>
+					<a href="https://maps.app.goo.gl/5K87zZ5Q2isq4fJq5" target="_blank" rel="noopener"
+					   class="inline-block border border-[#9C6B63] text-[#9C6B63] px-6 py-3 rounded-full font-medium hover:bg-[#9C6B63] hover:text-white transition-colors">
+						Cómo llegar
+					</a>
+				</div>
+				<div class="rounded-2xl overflow-hidden border border-[#E0CFB4] aspect-video">
+					<iframe
+						title="Ubicación de NAILS & ART en el mapa"
+						class="w-full h-full"
+						loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"
+						src="https://www.google.com/maps?q=NAILS+%26+ART+Blvrd+Ramon+G+Bonfil+702+Piracantos+Pachuca+Hidalgo&output=embed">
+					</iframe>
+				</div>
+			</div>
+		</section>
+
+		<section id="contacto" class="max-w-3xl mx-auto px-5 py-16 md:py-20 text-center">
+			<h2 class="font-serif text-3xl mb-4">¿Lista para tu próxima cita?</h2>
+			<p class="text-[#6b5b50] mb-8">Escribinos por WhatsApp y te ayudamos a elegir el servicio ideal.</p>
+			<a href="https://wa.me/527711277407?text=Hola%2C%20quiero%20agendar%20una%20cita%20en%20NAILS%20%26%20ART"
+			   target="_blank" rel="noopener"
+			   class="inline-block bg-[#9C6B63] text-white px-8 py-4 rounded-full font-medium hover:bg-[#84564f] transition-colors">
+				Agenda tu cita por WhatsApp
+			</a>
+		</section>
+	</main>
+
+	<footer class="border-t border-[#E0CFB4] py-8 text-center text-sm text-[#8a7a6d]">
+		<p>&copy; <span id="anio-actual"></span> NAILS &amp; ART · Pachuca, Hidalgo</p>
+		<p class="mt-1">
+			<a href="https://www.instagram.com/nails.art_pachuca/" target="_blank" rel="noopener" class="hover:underline">Instagram</a>
+		</p>
+	</footer>
+
+	<script src="js/script.js" defer></script>
+</body>
+</html>
